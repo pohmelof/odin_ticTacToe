@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.gameboard {
+    position: absolute;;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 2rem;
+}
